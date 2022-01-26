@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="height-full">
+   <head>
+      <title>Khoa Nguyen</title>   
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Khoa Nguyen's resume site">
+      <meta name="keywords" content="khoa nguyen, resume">
+      <meta name="author" content="Khoa Nguyen">
+      <link rel="shortcut icon" href="favicon.ico" />
+      <link rel="stylesheet" href="resume.css" />
+      <script>
+         var i = 0;
+         var txt = 'Welcome to my page!';
+         var speed = 50;
+         
+         function typeWriter() {
+           if (i < txt.length) {
+             document.getElementById("typing").innerHTML += txt.charAt(i);
+             i++;
+             setTimeout(typeWriter, speed);
+           }
+         }
+         
+         document.addEventListener('readystatechange', () => {    
+           if (document.readyState == 'complete') {
+         	document.getElementById("year").innerHTML = (new Date().getFullYear());
+         	typeWriter();
+         	};
+         });
+      </script>
+   </head>
+   <body  class="height-full d-flex flex-column">
+      <main class="d-flex flex-auto flex-column main" >
+         <header class="header">
+            <div class="d-lg-flex flex-items-center p-responsive">
+               <div class="width-full" style="text-align:center">
+                  <a href="./Khoa Nguyen Resume.pdf" class="color-fg-on-emphasis" target=_blank>
+                  PDF Resume</a> <span class="text-gray-m">|</span> <a href="https://linkedin.com/in/nguyenkhoa" class="color-fg-on-emphasis" target=_blank>
+                  LinkedIn</a>
+               </div>
+            </div>
+         </header>
+         <div>
+            <div class="bg-stars"></div>
+            <div class="bg-stars-2"></div>
+            <div class="bg-stars-3"></div>
+         </div>
+         <div class="d-flex flex-auto contentbody">
+            <div class="content-container">
+               <span class="text-mono text-gray-m" id="typing"></span>
+               <span data-target="typing-effect.cursor" class="typing-effect-cursor">|</span>
+               <h1>Khoa Nguyen</h1>
+               <p class="text-mono color-fg-on-emphasis" style="text-align:center;">Fountain Valley, CA  ▪  <a class="text-mono color-fg-on-emphasis" href="tel:+15625462548">(562) 546–2548</a>  ▪  <a class="text-mono color-fg-on-emphasis" href="mailto:khoaonesite@gmail.com?subject=Khoa%20site%20contact" target=_blank>khoaonesite@gmail.com</a></p>
+               <hr>
+               <p class="text-mono color-fg-on-emphasis title">
+                  Professional Experience
+               </p>
+               <hr>
+               <table class="text-mono color-fg-on-emphasis" style="width:100%">
+                  <tr class="work">
+                     <td class="left">Orange County Government</td>
+                     <td class="right">2018 - Present</td>
+                  </tr>
+                  <tr class="jobtitle">
+                     <td>Software Engineer (Full-Stack)</td>
+                     <td class="right">Santa Ana, CA</td>
+                  </tr>
+               </table>
+               <ul class="text-mono color-fg-on-emphasis heavy">
+                  <li>Architect, develop, and maintain multi-tenant applications to improve operational efficiency for multiple agencies</li>
+                  <li>Developed multiple internal financial and workflow applications, public-facing applications, and internal reports</li>
+                  <li>Converted legacy applications to streamline functionality and modernize the tech stack</li>
+                  <li>Collaborate with team members on technical projects –– ensuring optimal communication and delivery</li>
+                  <li><span class="tools">Tools:</span> C#, .NET Core, MVC, SQL Server, JavaScript, SSRS, Telerik, Oracle, Azure, TFS</li>
+               </ul>
+               <table class="text-mono color-fg-on-emphasis" style="width:100%">
+                  <tr class="work">
+                     <td class="left">Exemplis, LLC</td>
+                     <td class="right">2016 - 2018</td>
+                  </tr>
+                  <tr class="jobtitle">
+                     <td>Software Engineer (Full-Stack)</td>
+                     <td class="right">Cypress, CA</td>
+                  </tr>
+               </table>
+               <ul class="text-mono color-fg-on-emphasis heavy">
+                  <li>Developed applications and reports that optimized the manufacturing process by delivering key metrics and data-driven insights to senior leadership and field personnel</li>
+                  <li>Converted legacy applications and reports</li>
+                  <li>Created data migration procedures from legacy ERP to Dynamics AX to ensure a streamlined transition</li>
+                  <li>Developed inventory tracking, orders completion tracker, data migration, shipping management software, manufacturing progress tracking software, and customer portal</li>
+                  <li><span class="tools">Tools:</span> C#, .NET, MVC, SQL Server, JavaScript, Crystal Reports, Microsoft Dynamics X++, DevExpress</li>
+               </ul>
+               <table class="text-mono color-fg-on-emphasis" style="width:100%">
+                  <tr class="work">
+                     <td class="left">HourX Interactive</td>
+                     <td class="right">2014 - 2016</td>
+                  </tr>
+                  <tr class="jobtitle">
+                     <td>Software Engineer</td>
+                     <td class="right">Irvine, CA</td>
+                  </tr>
+               </table>
+               <ul class="text-mono color-fg-on-emphasis heavy">
+                  <li>Designed and developed in-flight entertainment systems for airlines which included games, videos, and music features</li>
+                  <li>Streamlined the shipping processes by 80% through leveraging integrations -- fulfillment improved from 3 days to a few hours</li>
+                  <li>Collaborated in group and individual settings to ensure timely and optimal project delivery</li>
+                  <li><span class="tools">Tools:</span> C#, .NET, MVC, SQL Server, JavaScript, Ship Station, Shopify, Amazon, eBay, AdWords, SEO</li>
+               </ul>
+               <table class="text-mono color-fg-on-emphasis" style="width:100%">
+                  <tr class="work">
+                     <td class="left">Vendivo, Inc.</td>
+                     <td class="right">2004 - 2014</td>
+                  </tr>
+                  <tr class="jobtitle">
+                     <td>Lead Developer</td>
+                     <td class="right">Fountain Valley, CA</td>
+                  </tr>
+               </table>
+               <ul class="text-mono color-fg-on-emphasis heavy">
+                  <li>Architected content management systems and automated marketing tools for the company</li>
+                  <li>Created a hybrid automated marketing system that accelerated marketing campaign deployment by 800%</li>
+                  <li>Architected Content Management System UX to ensure streamlined functionality and user experience</li>
+                  <li>Designed an interface which yielded a 10%+ conversion rate –– driving $6M+ in annual revenue</li>
+                  <li>Hired, trained, and managed 6 members of a software development team</li>
+                  <li><span class="tools">Tools:</span> PHP, MySQL, Linux, Google AdWords API, SEO, PPC</li>
+               </ul>
+               <p class="text-mono color-fg-on-emphasis title">
+                  Education
+               </p>
+               <hr>
+               <p class="text-mono color-fg-on-emphasis heavy left work">
+                  California State University, Fullerton
+               </p>
+               <p class="text-mono color-fg-on-emphasis heavy left"><span class="tools">Bachelor's:</span> Management Information Systems</p>
+               <p class="text-mono color-fg-on-emphasis title">
+                  Skills, Other Tech &amp; Interests
+               </p>
+               <hr>
+               <ul class="text-mono color-fg-on-emphasis">
+                  <li><span class="tools">Skills:</span> Application development, blockchain development, stored procedures, strategic planning, enterprise solutions, user experience, data migration, agile methodologies, troubleshooting, cloud-based technologies</li>
+                  <li><span class="tools">Other Tech:</span> blockchain, Nodejs, Python, PostgreSQL, Puppeteer, Linux server, Azure, AWS, GCP</li>
+                  <li><span class="tools">Interests:</span> Piano, blockchain, politics, sustainability, mindfulness, nutrition, Tesla/SpaceX</li>
+               </ul>
+            </div>
+         </div>
+         <div class="text-gray-m footer width-full">
+            <div class="width-full" style="float:right">
+               <span class="mr-2 text-gray-m hide-sm"><span id="year"></span> - Khoa Nguyen</span>
+               <a href="./Khoa Nguyen Resume.pdf" class="color-fg-on-emphasis" target=_blank>PDF Resume</a> <span class="text-gray-m">|</span> <a href="https://linkedin.com/in/nguyenkhoa" class="color-fg-on-emphasis" target=_blank>LinkedIn</a>
+            </div>
+         </div>
+         <img src="hero-glow.svg" alt="Glowing universe" class="home-hero-glow">
+      </main>
+   </body>
+</html>
