@@ -22,12 +22,14 @@
            }
          }
          
-         document.addEventListener('readystatechange', () => {    
-           if (document.readyState == 'complete') {
-         	document.getElementById("year").innerHTML = (new Date().getFullYear());
-         	typeWriter();
-         	};
-         });
+		document.addEventListener('readystatechange', () => {
+			if (document.readyState == 'complete') {
+				document.getElementById("year").innerHTML = (new Date().getFullYear());
+				setTimeout(function() {
+					typeWriter();
+				}, 2000);
+			};
+		});
       </script>
    </head>
    <body  class="height-full d-flex flex-column">
